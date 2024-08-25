@@ -1,4 +1,3 @@
-
 """
 The algorithm consists of two separate functions, merge_sort and merge.
 
@@ -14,18 +13,17 @@ After comparing all the items, there may be some items left over in either A or 
 
 Return the final list."""
 
-import random 
+import random
 import time
 
 
 def merge_sort(unsorted_list: list):
-
     if len(unsorted_list) < 2:
         return unsorted_list
-    
+
     middle = len(unsorted_list) // 2
 
-    first_half = unsorted_list[:middle] 
+    first_half = unsorted_list[:middle]
     second_half = unsorted_list[middle:]
 
     # print(f"FIRST HALF {first_half}\n")
@@ -39,44 +37,41 @@ def merge_sort(unsorted_list: list):
     return merge(sorted_left_side, sorted_right_side)
 
 
-def merge(left, right): 
-
+def merge(left, right):
     final = []
-    i = 0 
+    i = 0
     j = 0
 
     while i < len(left) and j < len(right):
         if left[i] <= right[j]:
             final.append(left[i])
-            i+=1
+            i += 1
         else:
             final.append(right[j])
-            j+=1
+            j += 1
 
     while i < len(left):
         final.append(left[i])
-        i+=1
-    
+        i += 1
+
     while j < len(right):
         final.append(right[j])
-        j+=1
+        j += 1
 
     return final
 
 
 def main():
-
     arr = []
 
     for i in range(random.randint(50, 100)):
         rand_num = random.randrange(1, 2000)
         arr.append(rand_num)
 
-    print(f"\n\nORIGINAL LIST: {arr}\n\n")    
+    print(f"\n\nORIGINAL LIST: {arr}\n\n")
     sorted_list = merge_sort(arr)
     print(f"SORTED LIST: {sorted_list}\n\n")
 
 
 if __name__ == "__main__":
     main()
-    
