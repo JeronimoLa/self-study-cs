@@ -1,8 +1,10 @@
 
 import random
 
-"""Insertion sort can be faster than merge sort if the list not huge, 
-and uses less of our servers memory when list sizes are small"""
+""" 
+Insertion sort can be faster than merge sort if the list not huge, 
+and uses less of our servers memory when list sizes are small
+"""
 
 def insertion_sort(nums):
     

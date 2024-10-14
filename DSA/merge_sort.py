@@ -1,3 +1,5 @@
+import random
+
 """
 The algorithm consists of two separate functions, merge_sort and merge.
 
@@ -12,9 +14,6 @@ Use a loop to iterate over A and B at the same time. If an element in A is less 
 After comparing all the items, there may be some items left over in either A or B (if one of the lists is longer than the other). Add those extra items to the final list.
 
 Return the final list."""
-
-import random
-import time
 
 
 def merge_sort(unsorted_list: list):

@@ -18,11 +18,9 @@ int* merge_sort(int array[], int size){
         return array;
     }
 
+    printf("size of array: %d ", size);
     int middle = size / 2;
-    int hello = 5;
-    printf("%d", middle);
-    printf("%d", hello);
-    
+    printf("middle index: %d", middle);d
 
     return 0;
 }
@@ -30,7 +28,7 @@ int* merge_sort(int array[], int size){
 
 int main(){
     // driver code 
-    int arr[] = {4, 10};
+    int arr[] = {4, 10, 2, 1, 8, 10, 7};
     int arr_size = sizeof(arr) / sizeof(arr[0]);
 
     printf("Original Array: ");
@@ -38,8 +36,7 @@ int main(){
 
     int* sorted = merge_sort(arr, arr_size);
 
-    printArray(sorted, arr_size);
-
+    // printArray(sorted, arr_size);
 
     return 0;
 }

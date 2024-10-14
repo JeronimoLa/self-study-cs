@@ -1,5 +1,8 @@
 # Computer Architecture Learning Guide
 
+[Building a Modern Computer from First Principles]
+https://minnie.tuhs.org/Tecs/book/preface.pdf
+
 ## 1. Introductory Resources
 
 ### Primary Recommendation
