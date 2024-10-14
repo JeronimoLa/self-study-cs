@@ -3,6 +3,10 @@
 [Building a Modern Computer from First Principles]
 https://minnie.tuhs.org/Tecs/book/preface.pdf
 
+[Courses designed straight from the book above]
+https://www.nand2tetris.org/
+	- https://www.coursera.org/learn/build-a-computer
+
 ## 1. Introductory Resources
 
 ### Primary Recommendation

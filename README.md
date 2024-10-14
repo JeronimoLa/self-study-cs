@@ -1,4 +1,5 @@
 # Computer Science Study Plan
+https://teachyourselfcs.com/
 
 ## Overview
 This study plan covers essential computer science topics, incorporating structured learning, hands-on activities, and recommended resources from the "Teach Yourself Computer Science" curriculum.
